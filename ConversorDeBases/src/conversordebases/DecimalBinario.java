@@ -27,7 +27,6 @@ public class DecimalBinario {
         do{
             resto = dividendo % 2;
             quociente = dividendo / 2;
-            //System.out.println(quociente);
             binario += resto;
             dividendo = quociente;
             if(dividendo == 1){
