@@ -30,10 +30,10 @@ public class DecimalBinario {
             //System.out.println(quociente);
             binario += resto;
             dividendo = quociente;
-            if(dividendo == 0 || dividendo == 1){
+            if(dividendo == 1){
                 binario += dividendo;
             }
-        }while(dividendo != 0 && dividendo != 1);
+        }while(dividendo != 1);
         
         String stringInvertida = new StringBuilder(binario).reverse().toString();//inverte a String
         System.out.println("Valor em binário: " + stringInvertida);
